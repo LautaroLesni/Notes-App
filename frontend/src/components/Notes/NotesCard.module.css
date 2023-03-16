@@ -1,0 +1,52 @@
+.cardDIV {
+    height: 150px;
+    border: 1px solid black;
+    width: 45%;
+    margin: 20px 0px;
+    background-color: rgb(223, 223, 223);
+    -webkit-box-shadow: 5px 5px 16px -1px #000000;
+    box-shadow: 5px 5px 16px -1px #000000;
+}
+.cardDIV h2{
+    margin-left: 20px;
+    width: fit-content;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    top: -5%;
+    left: 0.5%;
+}
+.description{
+    position: relative;
+    top: -57%;
+    left: 3%;
+    border: 1px solid black;
+    width: 75%;
+    height: 85px;
+    
+}
+.cardDIV p{
+    position: relative;
+    word-wrap: break-word;
+    font-weight: 500;
+    margin: 5px;
+}
+.createdAt{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: fit-content;
+    gap: 10px;
+    position: relative;
+    top: -50%;
+    left: 78%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -72%;
+    left: 83%;
+    gap: 10px;
+    width: fit-content;
+}

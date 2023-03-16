@@ -1,0 +1,62 @@
+.OutterDIV {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contentDIV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20%;
+}
+
+.contentDIV h1 {
+    color: white;
+    font-size: 100px;
+}
+.contentDIV h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.buttons{
+    display: flex;
+    justify-content:space-around;
+    width: 30%;
+    margin-top: 20px;
+}
+.loginbutton{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.loginbutton:hover{
+    background-color: #255a27;
+    transition: 0.3s;
+}
+.registerbutton{
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.registerbutton:hover{
+    background-color: #012f3f;
+    transition: 0.3s;
+}

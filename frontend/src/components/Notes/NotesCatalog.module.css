@@ -1,0 +1,9 @@
+.outterDIV{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
